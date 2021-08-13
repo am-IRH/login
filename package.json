@@ -1,0 +1,36 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "CREATE PAGE LOGIN \r READ USER INFOMATION ON DATABASE\r ACCESS THE DASHBOARD IF HE ARE A USER",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon start"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@ctrl": "controller",
+    "@model": "model",
+    "middleware": "middleware",
+    "@router": "router",
+    "@service": "service"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "connect-mongo": "^4.4.1",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "module-alias": "^2.2.2",
+    "mongoose": "^5.13.5",
+    "nodemon": "^2.0.12",
+    "npm": "^7.20.5",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "yup": "^0.32.9"
+  }
+}
